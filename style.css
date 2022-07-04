@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 48px;
+}
+section{
+    display: flex;
+    margin-bottom: 100px;
+}
+.orange-taxt{
+    color: #FFA500;
+}
+.link-button{
+    background-image: linear-gradient(orange, tomato);
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 85%;
+}
+.top-banner{
+    background-image: url(/images/top-banner.png);
+    background-repeat: no-repeat;
+    
+}
+.dream-big{
+    background-image: url(/images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}
+.dream-second-half{
+    padding-right: 4%;
+}
